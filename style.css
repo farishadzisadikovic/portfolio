@@ -107,11 +107,21 @@ h2 {
   margin-top: -1cm;
 }
 
+/*
 .profile_image {
   width: 550px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+}
+*/
+
+.profile_image {
+  width: 550px;
+  height: auto;
+  vertical-align: middle;
+  margin: 5px;
+  image-rendering: pixelated;
 }
 
 /* Skills */
